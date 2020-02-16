@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* 필터 css */
+#datepicker {
+	color: black;
+}
+input[type="button"].local, input[type="button"].genre, #all_local,
+	#all_genre {
+	background-color: #1d171752 !important;
+	color: black !important;
+	outline: none !important;
+	margin : 1px;
+}
+
+.table_f td {
+	padding: 0px !important;
+}
+
+input[type="button"].local, input[type="button"]#all_local {
+	width: 85px
+}
+
+#filter_btn {
+	background-color: #31315f;
+	width: 50%;
+	height : 40px;
+	float : left;
+}
+#filter_btn:hover{background-color: #2f2f5a}
+
+#filter_cancel {
+	width: 50%;
+	height : 40px;
+	font-weight : bold;
+}
+
+#genre {
+	width: 60%
+}
+
+input[type="button"].genre, input[type="button"]#all_genre {
+	width: 110px
+}
+.user{
+	color : white;
+}
+.logog{
+	color : black;
+}

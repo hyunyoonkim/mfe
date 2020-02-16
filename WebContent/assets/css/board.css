@@ -1,0 +1,53 @@
+<style>
+	.center-block {
+		display : flex;
+		justify-content:center; /* 가운데 정렬 */
+	}
+	.container {
+		margin : auto;
+		margin-top : 3%;
+		width : 70%;
+		height : 70%;
+	}
+	.rows {
+		margin-top : 2%;
+		width : 24%;
+		float : right;
+		margin-bottom : 2%;
+	}
+	#viewcount3 {
+		display : inline;
+		width : 30%;
+		height : 28px;
+	}
+	.sp {
+		display : inline;
+	}
+	img {
+		width : 100px;
+	}
+	
+	.select-wrapper {
+	float: right;
+	}
+
+	#addBoard_Button, #addReview_Button {
+		float: right;
+	}
+	
+	#search_select {
+		width: 10%;
+		display: inline-block;
+		height: 32px;
+	}
+	
+	#search_text {
+		width: 25%;
+		display: inline-block;
+		height: 32px;
+	}
+	.center-block {
+		display : flex;
+		justify-content:center;
+	}
+</style>

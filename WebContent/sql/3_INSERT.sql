@@ -1,0 +1,455 @@
+INSERT INTO MFE_MEMBER VALUES('admin@mfe.com','1234','관리자','seoul','01063485549','rap','2');
+INSERT INTO MFE_MEMBER VALUES('britntney@google.com','!important','브리트니 점례','seoul','01022223333','rap','2');
+INSERT INTO MFE_MEMBER VALUES('starlight@naver.com','toggledata','별빛로긔','seoul','01052842597','rap,balad','1');
+INSERT INTO MFE_MEMBER VALUES('modalmodal@hanmail.net','lime&&33','곽두팔','seoul','01059712485','jazz,balad','1');
+INSERT INTO MFE_MEMBER VALUES('samsunglover@hotmail.net','808@@@','이재용','seoul','01059872648','classic,jazz','1');
+INSERT INTO MFE_MEMBER VALUES('jjangjjang789@empas.com','Samsung*','이건희','seoul','01062217369','rock,R&B/Soul','1');
+INSERT INTO MFE_MEMBER VALUES('prettywomen@hitel.net','twinkle55','귀염둥이','seoul','01062553384','rap,balad','2');
+INSERT INTO MFE_MEMBER VALUES('jeongsintong1@netian.com','$fgas&*','뿌잉뿌잉','seoul','01026252784','rap,EDM','2');
+INSERT INTO MFE_MEMBER VALUES('ctrlz135@nate.com','!@#$%^&','컨트롤즤','seoul','01024787484','EDM,balad','1');
+INSERT INTO MFE_MEMBER VALUES('yumi309@hanmir.com','1@3$5^7','김유미','seoul','01064789369','rap,balad,EDM','2');
+INSERT INTO MFE_MEMBER VALUES('yurajjang12@dreamwiz.com','parkinterpark','박막례','seoul','01055233698','R&B/Soul,balad','2');
+INSERT INTO MFE_MEMBER VALUES('azummayeogi@korea.com','dngltdnglt','우힛우힛','seoul','01099872584','R&B/Soul,balad,EDM','2');
+INSERT INTO MFE_MEMBER VALUES('letitgoletitgo@nate.com','skxmfkddmfhrkwk','빠담빠담','seoul','01069882774','rap,R&B/Soul','2');
+INSERT INTO MFE_MEMBER VALUES('doyouwanna@buildasnow.man','%&(xlvksl','나트랑','seoul','01041443198','pop,balad','1');
+INSERT INTO MFE_MEMBER VALUES('breakfast@tiffany.lov','mamamomo','티파니','seoul','01088744526','rap,balad','2');
+INSERT INTO MFE_MEMBER VALUES('rockandroll@nate.com','rongrong22','나는야락스타','seoul','01099632587','pop,balad','1');
+INSERT INTO MFE_MEMBER VALUES('36ruralliving@hitel.net','popoqwqw','테일러','seoul','01036335241','rap,pop,R&B/Soul','1');
+INSERT INTO MFE_MEMBER VALUES('bestdriver123@dreamwiz.com','almond^^','베스트드레서','seoul','01087745269','rap,balad,pop','1');
+INSERT INTO MFE_MEMBER VALUES('maxminminus@kebi.com','brainwasher','이중세뇌','seoul','01069734578','pop,EDM','2');
+INSERT INTO MFE_MEMBER VALUES('sunandmoon28@hanmail.net','goehedl','해돋이','seoul','01085763194','pop,R&B/Soul','2');
+
+
+
+INSERT INTO MFE_GENRE VALUES(MFE_GENRE_SEQ.NEXTVAL, 'balad');	--1
+INSERT INTO MFE_GENRE VALUES(MFE_GENRE_SEQ.NEXTVAL, 'rock');	--2
+INSERT INTO MFE_GENRE VALUES(MFE_GENRE_SEQ.NEXTVAL, 'rap');		--3
+INSERT INTO MFE_GENRE VALUES(MFE_GENRE_SEQ.NEXTVAL, 'R&B/Soul');--4
+INSERT INTO MFE_GENRE VALUES(MFE_GENRE_SEQ.NEXTVAL, 'jazz');	--5
+INSERT INTO MFE_GENRE VALUES(MFE_GENRE_SEQ.NEXTVAL, 'classic');	--6
+INSERT INTO MFE_GENRE VALUES(MFE_GENRE_SEQ.NEXTVAL, 'pop');		--7
+INSERT INTO MFE_GENRE VALUES(MFE_GENRE_SEQ.NEXTVAL, 'EDM');		--8
+
+
+
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '서울');	--1
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '경기');	--2
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '인천');	--3
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '부산');	--4
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '대구');	--5
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '대전');	--6
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '경남');	--7
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '전남');	--8	
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '충남');	--9
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '광주');	--10
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '울산');	--11
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '경북');	--12
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '전북');	--13
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '충북');	--14
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '강원');	--15
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '제주');	--16
+INSERT INTO MFE_LOCAL VALUES(MFE_LOCAL_SEQ.NEXTVAL, '세종');	--17
+
+
+
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 노을 콘서트 <sweet sunset>', '2020/02/15', '노을', '19', '21','balad1.gif', 1, 1, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '[2020 Theatre 이문세]', '2020/03/13', '이문세', '18', '20','balad2.gif', 1, 1, '143000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 ＂’Select shop concert” 십센치 X 선우정아', '2020/03/07', '십센치X선우정아', '19', '21','balad3.gif', 1, 6, '66000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '〈2020 길구봉구 첫 번째 전국투어 콘서트〉 - 부산', '2020/02/01', '길구봉구', '18', '20','balad4.gif', 1, 4, '66000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 ‘만9,900원의행복’ 유리상자콘서트 시즌3-안산', '2020/04/12', '유리상자', '15', '17','balad5.gif', 1, 2, '9900');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 김필 콘서트 〈COLOURS〉 - 성남', '2020/02/29', '김필', '17', '19','balad6.gif', 1, 2, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Blossom Spring.. 봄을 피우다..', '2020/03/07', '강지민', '19', '23','balad7.gif', 1, 1, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '김장훈 소극장 100회 콘서트 시즌.5 더 클래식 2', '2020/03/22', '김장훈', '20', '22','balad8.gif', 1, 1, '66000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '라바 토크 콘서트 in 광화문（光畵MOON）', '2020/02/14', '이상우', '19:30', '21','balad9.gif', 1, 1, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '이은미 콘서트 30 years 1000th, thank you - 의정부', '2020/02/15', '이은미', '15', '17','balad10.gif', 1, 2, '55000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Tempo In Ballad 첫 번째 이야기 ‘먼데이키즈’', '2020/02/07', '먼데이키즈', '20', '22','balad11.gif', 1, 1, '33000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'V.O.S 콘서트 〈Beautiful Life〉 - 경주', '2020/03/21', 'V.O.S', '18', '20','balad12.gif', 1, 12, '39000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'V.O.S 콘서트 〈Beautiful Life〉 - 속초', '2020/03/28', 'V.O.S', '18', '20','balad13.gif', 1, 1, '39000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '민트페스타 vol.66 ~ Taurus', '2020/02/23', '엔플라잉,아월,솔루션스', '17', '19','rock1.gif', 2, 1, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '프리버드 라이브홀 25주년 기념 콘서트', '2020/02/09', '브로큰 발렌타인,바투,배드램', '17', '19','rock2.gif', 2, 1, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'H2O콘서트-ATUS릴레이콘서트 - 성남', '2020/02/29', 'H2O', '18', '20','rock3.gif', 2, 2, '50000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Have A Nice Day #8', '2020/04/11', '다수', '18', '20','rock4.jpg', 2, 1, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '울트라코리아 2020', '2020/06/20', '다수', '18', '20','rock5.jpg', 2, 1, '120000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '월드 디제이 페스티벌 2020 - 서울랜드', '2020/05/30', '다수', '18', '20','rock6.jpg', 2, 1, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '레인보우 뮤직&캠핑 페스티벌 2020', '2020/06/13', '다수', '18', '20','rock7.jpg', 2, 1, '66000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Mercedes-Benz Presents 5TARDIUM 2020', '2020/06/27', '다수', '18', '20','rock8.jpg', 2, 1, '64900');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 VECTOR DJ FESTIVAL', '2020/05/09', '다수', '18', '20','rock9.png', 2, 4, '79000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '나몰라패밀리 핫쇼 월드투어 in 서울［스페이스잼］', '2020/10/04', '나몰라패밀리', '18', '20','rock9.png', 2, 1, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'H2O콘서트-ATUS릴레이콘서트 - 성남', '2020/02/29', 'H2O', '18', '20','rock3.gif', 2, 2, '50000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Have A Nice Day #8', '2020/04/11', '다수', '18', '20','rock4.jpg', 2, 1, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '울트라코리아 2020', '2020/06/20', '다수', '18', '20','rock5.jpg', 2, 1, '120000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '월드 디제이 페스티벌 2020 - 서울랜드', '2020/05/30', '다수', '18', '20','rock6.jpg', 2, 1, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '레인보우 뮤직&캠핑 페스티벌 2020', '2020/06/13', '다수', '18', '20','rock7.jpg', 2, 1, '66000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Mercedes-Benz Presents 5TARDIUM 2020', '2020/06/27', '다수', '18', '20','rock8.jpg', 2, 1, '64900');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 VECTOR DJ FESTIVAL', '2020/05/09', '다수', '18', '20','rock9.png', 2, 4, '79000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '나몰라패밀리 핫쇼 월드투어 in 서울［스페이스잼］', '2020/10/04', '나몰라패밀리', '18', '20','rock9.png', 2, 1, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '뱃사공 콘서트〈기린〉', '2020/02/15', '기린', '18', '20','rap1.gif', 3, 1, '50000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '청년 스트릿댄스 페스타：Battle of B-boying - 수원', '2020/05/09', '다수', '19', '21','rap2.gif', 3, 2, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '청년 스트릿댄스 페스타：Dance to that Beat! - 수원', '2020/05/05', '다수', '19', '21','rap3.gif', 3, 2, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Docskim ＆ BRIDGES', '2020/02/28', '다수', '20', '22','rap4.gif', 3, 1, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Step by Step', '2020/01/31', '다수', '18', '20','rap5.gif', 3, 1, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'HIPHOPPLAYA FESTIVAL 2020', '2020/04/25', '다수', '19', '21','rap6.jpg', 8, 1, '109000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '퍼플카우 뮤직페스티벌 in 대구', '2020/02/29', '다수', '19', '21','rap7.png', 8, 1, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '레티시아모레노 with 뉴탱고퀸텟 피아졸라콘서트', '2020/02/15', '다수', '19', '21','rap8.jpg', 8, 1, '19900');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 칼리드(Khalid) 내한공연', '2020/04/25', '다수', '19', '21','rap9.jpg', 8, 1, '110000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 VECTOR DJ FESTIVAL', '2020/05/09', '다수', '19', '21','rap10.png', 8, 1, '79000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '뱃사공 콘서트〈기린〉', '2020/02/15', '기린', '18', '20','rap1.gif', 3, 1, '50000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '청년 스트릿댄스 페스타：Battle of B-boying - 수원', '2020/05/09', '다수', '19', '21','rap2.gif', 3, 2, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '청년 스트릿댄스 페스타：Dance to that Beat! - 수원', '2020/05/05', '다수', '19', '21','rap3.gif', 3, 2, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Docskim ＆ BRIDGES', '2020/02/28', '다수', '20', '22','rap4.gif', 3, 1, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Step by Step', '2020/01/31', '다수', '18', '20','rap5.gif', 3, 1, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'HIPHOPPLAYA FESTIVAL 2020', '2020/04/25', '다수', '19', '21','rap6.jpg', 8, 1, '109000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '퍼플카우 뮤직페스티벌 in 대구', '2020/02/29', '다수', '19', '21','rap7.png', 8, 1, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '레티시아모레노 with 뉴탱고퀸텟 피아졸라콘서트', '2020/02/15', '다수', '19', '21','rap8.jpg', 8, 1, '19900');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 칼리드(Khalid) 내한공연', '2020/04/25', '다수', '19', '21','rap9.jpg', 8, 1, '110000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 VECTOR DJ FESTIVAL', '2020/05/09', '다수', '19', '21','rap10.png', 8, 1, '79000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Step by Step', '2020/01/31', '다수', '18', '20','rap5.gif', 3, 1, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'HIPHOPPLAYA FESTIVAL 2020', '2020/04/25', '다수', '19', '21','rap6.jpg', 8, 1, '109000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '퍼플카우 뮤직페스티벌 in 대구', '2020/02/29', '다수', '19', '21','rap7.png', 8, 1, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '레티시아모레노 with 뉴탱고퀸텟 피아졸라콘서트', '2020/02/15', '다수', '19', '21','rap8.jpg', 8, 1, '19900');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 칼리드(Khalid) 내한공연', '2020/04/25', '다수', '19', '21','rap9.jpg', 8, 1, '110000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 VECTOR DJ FESTIVAL', '2020/05/09', '다수', '19', '21','rap10.png', 8, 1, '79000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 장윤정 라이브 콘서트 - 부산', '2020/02/22', '장윤정', '14', '16','soul1.gif', 4, 4, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 김연자 라이브 콘서트 - 이천 ', '2020/03/07', '김연자', '14', '16','soul2.gif', 4, 2, '55000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 장윤정 라이브 콘서트 - 대전', '2020/03/14', '장윤정', '14', '16','soul3.gif', 4, 6, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 장윤정 라이브 콘서트 - 창원', '2020/02/08', '장윤정', '14', '16','soul4.gif', 4, 7, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '내일은 미스트롯 전국투어 청춘 콘서트 - 창원 ', '2020/03/07', '미스트롯', '15', '17','soul5.gif', 4, 7, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 장윤정 라이브 콘서트 - 서울', '2020/02/29', '장윤정', '14', '16','soul6.gif', 4, 1, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 장윤정 라이브 콘서트 - 원주', '2020/03/07', '장윤정', '14', '16','soul7.gif', 4, 9, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 장윤정 라이브 콘서트 - 충주', '2020/02/15', '장윤정', '14', '16','soul8.gif', 4, 14, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '내일은 미스트롯 전국투어 콘서트 - 진주', '2020/02/15', '미스트롯', '14', '16','soul9.gif', 4, 7, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 김연자 라이브 콘서트 - 서울', '2020/02/15', '김연자', '14', '16','soul10.gif', 4, 1, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 빅3“행복한 동행”콘서트(진성, 김용임, 강진) - 안동', '2020/03/07', '빅3', '14', '16','soul11.gif', 4, 12, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［수원］남진 2020 청춘콘서트', '2020/02/08', '남진', '14', '16','soul12.gif', 4, 2, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［인천］ 남진 2020 청춘콘서트', '2020/02/22', '남진', '14', '16','soul13.gif', 4, 3, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 빅3“행복한 동행”콘서트(진성, 김용임, 강진) - 구미', '2020/03/14', '빅3', '14', '16','soul14.gif', 4, 12, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 빅3“행복한 동행”콘서트(진성, 김용임, 강진) - 남양주', '2020/02/29', '빅3', '14', '16','soul15.gif', 4, 2, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 빅3“행복한 동행”콘서트(진성, 김용임, 강진) - 여수', '2020/02/15', '빅3', '14', '16','soul16.gif', 4, 8, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 심수봉 전국투어 콘서트 in 하남', '2020/02/08', '심수봉', '14', '16','soul17.gif', 4, 2, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 장윤정 라이브 콘서트 - 고양', '2020/03/28', '장윤정', '14', '16','soul18.gif', 4, 2, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 주현미 데뷔 35주년 기념 콘서트 - 고양', '2020/03/14', '장윤정', '18', '20','soul19.gif', 4, 2, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '금잔디 ‘효’ 콘서트 오라버니 〈구미〉', '2020/02/29', '금잔디', '16', '18','soul20.gif', 4, 12, '40000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［문래재즈IN#연중기획］ 브라이언 신 ＆ the Swing Makers', '2020/02/01', '브라이언 신', '19', '21','jazz1.gif', 5, 1, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［문래재즈IN#연중기획］ 트리오 웍스（TrioWorks）', '2020/02/08', '트리오 웍스', '19', '21','jazz2.gif', 5, 1, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 통영국제음악제 - 디 디 브릿지워터 ', '2020/03/29', '디디 브릿지워터', '21', '23','jazz3.gif', 5, 7, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '발렌타인데이 스페셜 콘서트 2020 아르떼 재즈 나이트 - 47 - 통영', '2020/02/14', '아르떼', '19', '21','jazz4.gif', 5, 7, '58000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '재즈 와인에 빠지다 141st - 부산', '2020/02/28', '다수', '20', '22','jazz5.gif', 5, 4, '25000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Play Blue Note Masterpiece VOL2（대구）', '2020/02/28', '다수', '20', '22','jazz6.gif', 5, 5, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Play Blue Note Masterpiece VOL3', '2020/03/06', '다수', '20', '22','jazz7.gif', 5, 1, '35000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'SUN KIM JAM DAY', '2020/01/30', '선킴밴드', '20', '22','jazz8.gif', 5, 1, '10000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'The Best Of Blue Note', '2020/02/02', '다수', '16', '18','jazz9.gif', 5, 1, '35000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '제14회 서울재즈페스티벌 2020', '2020/05/23', '다수', '16', '18','jazz10.jpg', 5, 1, '253900');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［문래재즈IN#연중기획］ 브라이언 신 ＆ the Swing Makers', '2020/02/01', '브라이언 신', '19', '21','jazz1.gif', 5, 1, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［문래재즈IN#연중기획］ 트리오 웍스（TrioWorks）', '2020/02/08', '트리오 웍스', '19', '21','jazz2.gif', 5, 1, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 통영국제음악제 - 디 디 브릿지워터 ', '2020/03/29', '디디 브릿지워터', '21', '23','jazz3.gif', 5, 7, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '발렌타인데이 스페셜 콘서트 2020 아르떼 재즈 나이트 - 47 - 통영', '2020/02/14', '아르떼', '19', '21','jazz4.gif', 5, 7, '58000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '재즈 와인에 빠지다 141st - 부산', '2020/02/28', '다수', '20', '22','jazz5.gif', 5, 4, '25000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Play Blue Note Masterpiece VOL2（대구）', '2020/02/28', '다수', '20', '22','jazz6.gif', 5, 5, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'Play Blue Note Masterpiece VOL3', '2020/03/06', '다수', '20', '22','jazz7.gif', 5, 1, '35000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'SUN KIM JAM DAY', '2020/01/30', '선킴밴드', '20', '22','jazz8.gif', 5, 1, '10000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'The Best Of Blue Note', '2020/02/02', '다수', '16', '18','jazz9.gif', 5, 1, '35000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '제14회 서울재즈페스티벌 2020', '2020/05/23', '다수', '16', '18','jazz10.jpg', 5, 1, '253900');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '강남심포니오케스트라 제84회 정기연주회', '2020/02/27', '다수', '19', '21','classic1.gif', 6, 1, '10000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '강효지 피아노 독주회 - 강효지의 디스커버리 시리즈 Ⅱ ‘화두’', '2020/02/14', '다수', '19', '21','classic2.gif', 6, 1, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '건우회 제8회 정기연주회', '2020/03/01', '다수', '14', '16','classic3.gif', 6, 1, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '게반트하우스 콰르텟', '2020/12/09', '다수', '20', '22','classic4.gif', 6, 1, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '겨울의 이야기 : 11시의 클래식', '2020/12/03', '다수', '11', '13','classic5.gif', 6, 1, '10000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '경기도문화의전당 2020 시즌 패키지 〈경기필 마니아픽〉', '2020/03/05', '다수', '19', '21','classic6.gif', 6, 2, '264000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '경기도문화의전당 2020 시즌 패키지 〈GGAC 기획 마니아픽〉', '2020/12/03', '다수', '19', '21','classic7.gif', 6, 2, '113400');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '경기필하모닉 2020 앤솔러지 시리즈 Ⅵ 〈베르디 레퀴엠〉 - 레퍼토리 시즌제', '2020/10/10', '다수', '16', '18','classic8.gif', 6, 2, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '경기필하모닉 청소년음악회', '2020/05/30', '다수', '16', '18','classic9.gif', 6, 2, '10000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '고로헌 귀국 더블베이스 독주회', '2020/02/15', '고로헌', '20', '22','classic10.gif', 6, 1, '10000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '공은지 피아노 독주회', '2020/02/12', '공은지', '20', '22','classic11.gif', 6, 1, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '과천시립여성합창단 제29회 기획연주회 - 과천', '2020/02/14', '다수', '19', '21','classic12.gif', 6, 2, '5000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '국립오페라단과 함께하는 〈봄밤 콘서트〉', '2020/03/17', '다수', '19', '21','classic13.gif', 6, 1, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '국립합창단 베스트 컬렉션', '2020/02/27', '다수', '19', '21','classic14.gif', 6, 1, '10000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '권영선 튜바 독주회', '2020/02/11', '권영선', '19', '21','classic15.gif', 6, 1, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '권예나 귀국 플루트 독주회', '2020/02/29', '권예나', '20', '22','classic16.gif', 6, 1, '20000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '그림읽어주는베토벤 콘서트 마네＆모네', '2020/01/31', '다수', '19', '21','classic17.gif', 6, 1, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '금난새와 함께하는 〈마티네 콘서트 Ⅰ : 라 트라비아타〉 - 대구 ', '2020/03/13', '금난새', '11', '13','classic18.gif', 6, 5, '15000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '금호아트홀 아르다운 목요일 - 퀸 엘리자베스 콩쿠르 위너 (I)', '2020/09/10', '다수', '20', '22','classic19.gif', 6, 1, '40000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '금호아트홀 아름다운 목요일 - 김규리 Viola', '2020/02/06', '김규리', '20', '22','classic20.gif', 6, 1, '30000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '미카 내한공연 (MIKA LIVE IN SEOUL)', '2020/03/04', '미카', '20', '22','pop1.gif', 7, 1, '110000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［전국투어 내한공연］ 스티브 바라캇 with 데이드림 ‘화이트데이 콘서트’ in 천안', '2020/03/14', '스티브바라캇', '17', '19','pop2.gif', 7, 9, '33000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［전국투어 내한공연］ 스티브 바라캇 with 데이드림 ＇화이트데이 콘서트＇ in 창원', '2020/03/13', '스티브바라캇', '17', '19','pop3.gif', 7, 7, '33000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［전국투어 내한공연］ 스티브 바라캇 with 데이드림 ‘화이트데이 콘서트’ in 부산', '2020/03/12', '스티브바라캇', '17', '19','pop4.gif', 7, 4, '33000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '［전국투어 내한공연］ 스티브 바라캇 with 데이드림 ‘화이트데이 콘서트’ in 서울', '2020/03/18', '스티브바라캇', '17', '19','pop5.gif', 7, 1, '33000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 칼리드(Khalid) 내한공연', '2020/04/09', '칼리드', '20', '22','pop6.gif', 7, 1, '110000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 칼리드(Khalid) 내한공연 - Meet ＆ Greet', '2020/04/09', '칼리드', '20', '22','pop7.gif', 7, 1, '100000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '유키 구라모토 콘서트 - Hopeful Tomorrow', '2020/02/14', '유키구라모토', '20', '22','pop8.gif', 7, 1, '40000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '케니 지(Kenny G) 월드투어 발렌타인 콘서트', '2020/02/21', '케니지', '16', '18','pop9.gif', 7, 1, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '케니 지(Kenny G) 월드투어 발렌타인 콘서트 - 부산 ', '2020/02/23', '케니지', '19', '21','pop10.gif', 7, 4, '88000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '할시 내한공연［Halsey - Manic World Tour Live in Seoul］', '2020/05/09', '할시', '19', '21','pop11.jpg', 7, 1, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'GFRIEND Showcase 〈回：LABYRINTH>', '2020/02/03', '여자친구', '20', '22','edm1.jpg', 8, 1, '22000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'SF9 공식팬클럽 FANTASY 3기 팬미팅［셒구 워크숍］', '2020/02/23', 'sf9', '14', '16','edm2.jpg', 8, 1, '55000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '민중가요 소환 콘서트 the 청춘 콘서트', '2020/02/01', '다수', '17', '19','edm3.jpg', 8, 1, '90000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'ATEEZ World Tour The Fellowship : Map The Treasure', '2020/02/08', 'ateez', '18', '20','edm4.jpg', 8, 1, '110000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'SAFETY F1RST＋CONCERT', '2020/02/02', '다수', '18', '20','edm5.jpg', 8, 1, '22000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '2020 pH-1 Concert：〈ROOMMATE SEARCH〉', '2020/02/15', 'ph1', '19', '21','edm6.jpg', 8, 1, '77000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '워터밤 인천 2020', '2020/08/08', '다수', '19', '21','edm7.jpg', 8, 3, '55000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'CHANGMO 별 될 시간 LIVE IN SEOUL 2020', '2020/02/16', '창모', '18', '20','edm8.jpg', 8, 1, '66000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '백예린 단독공연 ＂Turn on that Blue Vinyl＂', '2020/02/08', '백예린', '19', '21','edm9.jpg', 8, 1, '99000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '백예린 단독공연', '2019/08/13', '다수', '15', '22','edm10.jpg', 8, 3, '55000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'CHANGMO 별 될 시간 LIVE IN SEOUL 2020', '2019/12/13', '다수', '15', '22','edm10.jpg', 8, 3, '55000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '워터밤 인천 2020', '2020/01/12', '다수', '15', '22','edm10.jpg', 8, 3, '55000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'SAFETY F1RST＋CONCERT', '2020/01/10', '다수', '15', '22','edm10.jpg', 8, 3, '55000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, 'ATEEZ World Tour The Fellowship : Map The Treasure', '2018/06/13', '다수', '15', '22','edm10.jpg', 8, 3, '55000');
+INSERT INTO MFE_CONCERT 
+VALUES(MFE_CONCERT_SEQ.NEXTVAL, '민중가요 소환 콘서트 the 청춘 콘서트', '2020/01/22', '다수', '15', '22','edm10.jpg', 8, 3, '55000');
+
+
+
+INSERT INTO MFE_CARD
+VALUES('1111111111111', 'admin@mfe.com', '1122', '111');
+INSERT INTO MFE_CARD
+VALUES('2222222222222', 'britntney@google.com', '1222', '222');
+INSERT INTO MFE_CARD
+VALUES('3333333333333', 'starlight@naver.com', '1123', '333');
+INSERT INTO MFE_CARD
+VALUES('4444444444444', 'modalmodal@hanmail.net', '1125', '444');
+INSERT INTO MFE_CARD
+VALUES('5555555555555', 'samsunglover@hotmail.net', '0928', '555');
+INSERT INTO MFE_CARD
+VALUES('6666666666666', 'jjangjjang789@empas.com', '0721', '666');
+INSERT INTO MFE_CARD
+VALUES('7777777777777', 'prettywomen@hitel.net', '1124', '777');
+INSERT INTO MFE_CARD
+VALUES('8888888888888', 'jeongsintong1@netian.com', '0326', '888');
+INSERT INTO MFE_CARD
+VALUES('9999999999999', 'ctrlz135@nate.com', '0527', '999');
+
+
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 1, 'admin@mfe.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '1111111111111', SYSDATE, '77000');
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 2, 'admin@mfe.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '1111111111111', SYSDATE, '143000');
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 91, 'admin@mfe.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '1111111111111', '2019/06/01', (SELECT CONCERT_PRICE FROM MFE_CONCERT WHERE CONCERT_ID=91));
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 92, 'admin@mfe.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '1111111111111', '2019/02/01', (SELECT CONCERT_PRICE FROM MFE_CONCERT WHERE CONCERT_ID=92));
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 93, 'admin@mfe.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '1111111111111', '2019/05/22', (SELECT CONCERT_PRICE FROM MFE_CONCERT WHERE CONCERT_ID=93));	
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 1, 'britntney@google.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 2, '2222222222222', SYSDATE, '154000');
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 10, 'britntney@google.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 2, '2222222222222', SYSDATE, '55000');
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 11, 'britntney@google.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 2, '2222222222222', SYSDATE, '66000');
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 3, 'britntney@google.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '2222222222222', SYSDATE, (SELECT CONCERT_PRICE FROM MFE_CONCERT WHERE CONCERT_ID=3));
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 143, 'britntney@google.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '2222222222222', '2019/06/01', (SELECT CONCERT_PRICE FROM MFE_CONCERT WHERE CONCERT_ID=143));
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 142, 'britntney@google.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '2222222222222', '2019/02/01', (SELECT CONCERT_PRICE FROM MFE_CONCERT WHERE CONCERT_ID=142));
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 141, 'britntney@google.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '2222222222222', '2019/05/22', (SELECT CONCERT_PRICE FROM MFE_CONCERT WHERE CONCERT_ID=141));
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 140, 'britntney@google.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '2222222222222', '2019/05/22', (SELECT CONCERT_PRICE FROM MFE_CONCERT WHERE CONCERT_ID=140));	
+INSERT INTO MFE_BOOK
+VALUES(MFE_BOOK_SEQ.NEXTVAL, 139, 'britntney@google.com', 
+		(SELECT CONCAT('e', (SELECT TRUNC(DBMS_RANDOM.VALUE(100000000,999999999)) 
+		AS RANDOM_NUM FROM DUAL)) FROM DUAL), 1, '2222222222222', '2019/05/22', (SELECT CONCERT_PRICE FROM MFE_CONCERT WHERE CONCERT_ID=139));	
+
+		
+INSERT INTO MFE_CHAT
+VALUES(MFE_chat_seq.nextval, MFE_chat_seq2.nextval, 'britntney@google.com', '안녕하세요~', SYSDATE);
+		
+INSERT INTO MFE_CHAT
+VALUES(MFE_chat_seq.nextval, MFE_chat_seq2.CURRVAL, 'admin@mfe.com', '안녕하세요~ 문의해주세요~', SYSDATE);
+		
+INSERT INTO MFE_CHAT
+VALUES(MFE_chat_seq.nextval, MFE_chat_seq2.CURRVAL, 'britntney@google.com', '티켓환불은 어떻게 하나요?', SYSDATE);
+		
+INSERT INTO MFE_CHAT
+VALUES(MFE_chat_seq.nextval, MFE_chat_seq2.CURRVAL, 'admin@mfe.com', '마이페이지 - 예매내역 메뉴에서 예매취소가 가능합니다^^', SYSDATE);
+		
+INSERT INTO MFE_CHAT
+VALUES(MFE_chat_seq.nextval, MFE_chat_seq2.CURRVAL, 'britntney@google.com', '감사합니다!', SYSDATE);
+
+INSERT INTO MFE_CHAT
+VALUES(MFE_chat_seq.nextval, MFE_chat_seq2.CURRVAL, 'admin@mfe.com', '네~문의 감사합니다. 좋은 하루되세요^^', SYSDATE);
+
+INSERT INTO MFE_REVIEW
+VALUES(MFE_REVIEW_SEQ.NEXTVAL, 'modalmodal@hanmail.net', '1234', 3, '대박~', '굿굿', SYSDATE, 0, '');
+INSERT INTO MFE_REVIEW
+VALUES(MFE_REVIEW_SEQ.NEXTVAL, 'modalmodal@hanmail.net', '1234', 2, '굿~', '굿굿', SYSDATE, 0, '');
+INSERT INTO MFE_REVIEW
+VALUES(MFE_REVIEW_SEQ.NEXTVAL, 'letitgoletitgo@nate.com', '1234', 1, '짱이에요', '굿굿', SYSDATE, 0, '');
+INSERT INTO MFE_REVIEW
+VALUES(MFE_REVIEW_SEQ.NEXTVAL, 'modalmodal@hanmail.net', '1234', 6, '꼭가요', '굿굿', SYSDATE, 0, '');
+INSERT INTO MFE_REVIEW
+VALUES(MFE_REVIEW_SEQ.NEXTVAL, 'letitgoletitgo@nate.com', '1234', 5, '와우', '굿굿', SYSDATE, 0, '');
+INSERT INTO MFE_REVIEW
+VALUES(MFE_REVIEW_SEQ.NEXTVAL, 'modalmodal@hanmail.net', '1234', 44, '대박~', '굿굿', SYSDATE, 0, '');
+INSERT INTO MFE_REVIEW
+VALUES(MFE_REVIEW_SEQ.NEXTVAL, 'modalmodal@hanmail.net', '1234', 56, '대박~', '굿굿', SYSDATE, 0, '');
+INSERT INTO MFE_REVIEW
+VALUES(MFE_REVIEW_SEQ.NEXTVAL, 'modalmodal@hanmail.net', '1234', 57, '대박~', '굿굿', SYSDATE, 0, '');
