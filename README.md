@@ -1,6 +1,8 @@
+<img alt="Music For Everyone" src="https://github.com/hyunyoonkim/mfe/blob/master/WebContent/images/mfe.jpg">
+
 # MFE - 콘서트 예약 사이트
 -----
-<img alt="Music For Everyone" src="https://github.com/hyunyoonkim/mfe/blob/master/WebContent/images/mfe.jpg">
+
 
 # 개요
 * 프로젝트 명 : MFE(Music For Everyone)
