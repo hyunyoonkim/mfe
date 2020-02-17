@@ -1,6 +1,6 @@
 <img alt="Music For Everyone" src="https://github.com/hyunyoonkim/mfe/blob/master/WebContent/images/mfe.jpg">
 
-# MFE - 콘서트 예약 사이트
+# MFE(Music For Everyone) - 콘서트 예약 사이트
 * MFE(Music For Everyone)
 * 11/13/2019 ~ 12/13/2019
 -----
