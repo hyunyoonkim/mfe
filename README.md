@@ -3,6 +3,7 @@
 # MFE(Music For Everyone) - 콘서트 예약 사이트
 * MFE(Music For Everyone)
 * 11/13/2019 ~ 12/13/2019
+* <a href="https://www.slideshare.net/mjSong9/mfe-project">MFE PPT</a>
 -----
 **개발 목표**
 
